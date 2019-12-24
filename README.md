@@ -8,24 +8,24 @@
 	A simple shell lab implemented with the book
 
 
-################
-CS:APP Shell Lab
-################
+################<br/>
+CS:APP Shell Lab<br/>
+################<br/>
 
-Files:
+Files:<br/>
 
-Makefile	# Compiles your shell program and runs the tests
-README		# This file
-tsh.c		# The shell program that you will write and hand in
-tshref		# The reference shell binary.
+Makefile&ensp;&ensp;# Compiles your shell program and runs the tests<br/>
+README&ensp;&ensp;  # This file<br/>
+tsh.c&ensp;&ensp;   # The shell program that you will write and hand in<br/>
+tshref&ensp;&ensp;  # The reference shell binary.<br/>
 
-# The remaining files are used to test your shell
-sdriver.pl	# The trace-driven shell driver
-trace*.txt	# The 15 trace files that control the shell driver
-tshref.out 	# Example output of the reference shell on all 15 traces
+# The remaining files are used to test your shell<br/>
+sdriver.pl&ensp;&ensp;# The trace-driven shell driver<br/>
+trace*.txt&ensp;&ensp;# The 15 trace files that control the shell driver<br/>
+tshref.out&ensp;&ensp;# Example output of the reference shell on all 15 traces<br/>
 
-# Little C programs that are called by the trace files
-myspin.c	# Takes argument <n> and spins for <n> seconds
-mysplit.c	# Forks a child that spins for <n> seconds
-mystop.c        # Spins for <n> seconds and sends SIGTSTP to itself
-myint.c         # Spins for <n> seconds and sends SIGINT to itself
+# Little C programs that are called by the trace files<br/>
+myspin.c&ensp;&ensp; # Takes argument <n> and spins for <n> seconds<br/>
+mysplit.c&ensp;&ensp;# Forks a child that spins for <n> seconds<br/>
+mystop.c&ensp;&ensp; # Spins for <n> seconds and sends SIGTSTP to itself<br/>
+myint.c&ensp;&ensp;  # Spins for <n> seconds and sends SIGINT to itself<br/>
